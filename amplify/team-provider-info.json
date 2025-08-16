@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tfshoppingmemo-dev-6c5dd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::564706812475:role/amplify-tfshoppingmemo-dev-6c5dd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::564706812475:role/amplify-tfshoppingmemo-dev-6c5dd-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-tfshoppingmemo-dev-6c5dd-deployment",
+      "UnauthRoleName": "amplify-tfshoppingmemo-dev-6c5dd-unauthRole",
+      "StackName": "amplify-tfshoppingmemo-dev-6c5dd",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:564706812475:stack/amplify-tfshoppingmemo-dev-6c5dd/be074500-7664-11f0-93bd-0a10f2ba5779",
+      "AmplifyAppId": "d1e3zmtar19udf"
+    },
+    "categories": {
+      "auth": {
+        "tfshoppingmemo7eb9c078": {}
+      },
+      "api": {
+        "tfshoppingmemo": {}
+      }
+    }
+  }
+}

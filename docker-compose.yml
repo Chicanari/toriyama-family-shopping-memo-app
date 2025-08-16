@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+      # WindowsのAWS資格情報を共有（読み取り専用）
+      - ${USERPROFILE}\.aws:/home/node/.aws:ro
+    ports:
+      - "5173:5173"     # Vite
+    environment:
+      - AWS_PROFILE=default
+    tty: true
+    command: bash

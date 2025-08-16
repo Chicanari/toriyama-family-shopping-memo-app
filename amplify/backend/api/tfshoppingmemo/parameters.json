@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "tfshoppingmemo",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtfshoppingmemo7eb9c078",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2025-08-16T15:35:06.280Z"
+}

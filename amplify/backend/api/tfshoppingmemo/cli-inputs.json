@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "tfshoppingmemo",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 30,
+      "apiKeyExpirationDate": "2025-09-15T15:34:53.142Z",
+      "keyDescription": "shopping-memo dev key 2025-08"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtfshoppingmemo7eb9c078"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}
